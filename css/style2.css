@@ -1,0 +1,543 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body,html{
+    height: 100%;
+    position: relative;
+/*    overflow-x: hidden;*/
+}
+
+
+.navbar-custom{
+    background-color: #222;
+   width: 100%;
+}
+.navbar-custom .navbar-brand{
+   
+    color:#ff6633;
+    font-family: fantasy;
+}
+.navbar-toggler-icon{
+    
+    
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active{
+    color: #fed163;
+}
+.navbar-nav li{
+    padding: 0 15px;
+}
+.navbar-nav li a{
+    color: #fff;
+    font-family: serif;
+    font-size: 15px;
+    
+}
+
+.navbar-nav .active:link{
+    background-color: #fed136;
+    border-radius: 5px;
+    border: #fed136;
+    
+}
+
+.black{
+    background-color: #222; 
+   
+ 
+  
+}
+
+@media(min-width:900px){
+    
+    
+    .navbar-custom{
+        background-color: transparent;
+    }
+    .black{
+        background-color: #222;
+    }
+    .navbar-brand{
+         margin-left: 40px;
+        font-size: 30px;
+        
+    }
+    .navbar-nav li a{
+        font-size: 20px;
+    }
+}
+header{
+    background-image: url(../images/header-bg.jpg);
+    background-position: 
+        
+        center center;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+.introtext{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.mainheader{
+    color: #FFF;
+}
+@media(min-width:768px){
+    
+    .introtext{
+        
+        padding-top: 300px;
+        padding-bottom: 200px;
+    }
+    .mainheader{
+        color: #fff;
+        font-family: sans-serif;
+        font-size: 60px;
+        margin-bottom: 25px;
+    }
+    .welcometext{
+        color: #fff;
+        font-style: italic;
+        font-weight: 400;
+        margin-bottom: 40px;
+    }
+    .btn1{
+        padding: 20px 55px;
+        color: #fff;
+    }
+    .btn1 a{
+        color: #FFF;
+    }
+}
+.services{
+   
+}
+.row5{
+    padding-top: 70px;
+    margin-bottom: 70px
+}
+.sevicesintro h3{
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.sevicesintro p{
+    font-style: italic;
+    
+}
+.row4{
+    margin-bottom: 50px;
+}
+
+.service1,.service2,.service3{
+/*    border: 2px solid black;*/
+    text-align: center;
+}
+.service1 h5{
+    color: #222;
+    font-size: 26px;
+    font-family: serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+.service2 h5{
+    color: #222;
+    font-size: 26px;
+    font-family: serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+}
+.service3 h5{
+    color: #222;
+    font-size: 26px;
+    font-family: serif;
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-bottom: 10px;
+    
+}
+.fa-circle {
+    color: #ff6633;
+}
+.icon{
+    color: #fff;
+}
+.p1 ,.p2 ,.p3{
+    color: #222;
+    font-family: serif;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row2{
+    margin-bottom: 60px;
+    padding-top: 50px;
+}
+.portfolioheading{
+    color: #FF6633;
+    font-family: serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+.subheading{
+   font-family: fantasy;
+    font-size: 20px;
+}
+.portfolio{
+   
+    background-color: lightgray;
+}
+.portfolioitem{
+/*    border: 2px solid black;*/
+}
+.portfoliolink{
+/*    border: 1px solid red;*/
+    display: block;
+    max-width: 340px;
+/*    height: 100%;*/
+    position: relative;
+    margin: 0 auto;
+}
+.portfoliohover{
+/*    border: 1px solid blue;*/
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color:  rgba(254, 209, 54, .9);
+    opacity: 0;
+    transition-timing-function: ease-in;
+    transition-duration: 0.5s;
+    transition-delay: 0.3s;
+}
+/*services starts from here*/
+.portfoliohover:hover{
+    opacity: 1;
+}
+.portfoliohovercontent{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    margin-top: -27px;
+}
+.caption{
+    background-color: #fff;
+    width: 340px;
+    margin: 0 auto;
+}
+/*
+.timeline {
+    list-style: none;
+
+    padding: 0;
+    position: relative;
+    border: 2px solid black;
+}
+.timeline::before {
+    height: 100%;       here we changed somrthing
+    position: absolute;
+    content: "";
+    width: 2px;
+    background-color:#FFF ;
+    left: 40px;
+    margin-left: -1.5px
+}
+
+.timeline > li {
+    margin-bottom: 50px;
+    position: relative;
+    min-height: 50px;
+        border:2px solid red;
+}
+*/
+
+#about{
+/*    margin-bottom: 50px;*/
+    padding: 80px 0px;
+   
+}
+.section-heading{
+    
+    color: #222;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: serif;
+    font-weight: 900;
+}
+.section-subheading{
+    font-size:25px;
+    font-style: italic;
+}
+.timeline{
+/*    border: 2px solid  black;*/
+    position: relative;
+    list-style: none;
+}
+.timeline::before{
+    
+    content: "";
+    height: 100%;
+    width: 2px;
+    background-color: #fff;
+    position: absolute;
+    left:20px;
+}
+.timeline li{
+    
+/*    border: 1px solid red;*/
+/*    position: relative;*/
+    margin-bottom: 50px;
+    display: table;
+}
+.timeline-panel{
+    
+/*    border: 1px solid blue;*/
+    position: relative;
+    float: right;
+    padding-left:80px;
+    padding-right:20px;
+}
+.timeline-image{
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: -20px;
+   
+    z-index: 100;
+    background-color: #fed163;
+    text-align: center;
+    border: 7px solid #fed163;
+    border-radius: 100%;
+    text-align: center;
+}
+.timeline-inverted .timeline-panel{
+    float: right;
+    padding-left:80px;
+    padding-right:20px;
+    position: relative;
+}
+.timeline-image h4{
+    
+    font-size:12px;
+    margin-top: 5px;
+
+}
+.timeline-heading{
+    color: black;
+    
+    font-family: serif;
+    font-weight: 600;
+    
+}
+.subheading{
+    color: black;
+}
+.timeline-body p{
+    color: #222;
+    line-height: 30px;
+}
+@media(min-width:768px)
+{
+    .timeline::before{
+        left: 50%;
+    }
+    
+    .timeline-inverted .timeline-panel{
+        width: 40%;
+        padding-left: 0;
+        text-align: left;
+        
+    }
+    .timeline li{
+        margin-bottom: 100px;
+    }
+     .timeline-panel{
+        width: 40%;
+        float: left;
+         text-align: right;
+         padding-left: 0;
+         padding-right: 0;
+        
+    }
+    .timeline-image{
+        width: 150px;
+        height:150px;
+        left: 50%;
+        margin-left: -75px;
+        
+    }
+    .timeline-image h4{
+        font-size: 25px;
+        border-image-width: 100%;
+        
+    }
+}
+
+
+
+
+
+
+#team{
+    background-color: lightgray;
+   
+    
+}
+
+.teamintro{
+    
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.teammembers{
+/*    border: 2px solid red;*/
+    text-align: center;
+    margin-bottom: 80px;
+}
+.socialmedia{
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 10px;
+     
+}
+.socialmedia li{
+   display: inline-block;
+  
+    
+}
+.socialmedia li a{
+    margin: 0 5px;
+/*    border: 1px solid red;*/
+    background-color: #222;
+    font-size: 25px;
+   
+    border-radius: 100%;
+    text-align: center;
+   padding: 8px 8px;
+
+    
+}
+.socialmedia li a i{
+   height: 35px;
+    width: 35px;
+    color: #fff;
+
+
+    
+}
+
+.socialmedia li a:hover{
+    background-color: #ff6633;
+    
+}
+.teamintro h3{
+    color: #222;
+    font-size: 35px;
+    font-family: 'Manjari', sans-serif;
+    font-weight: 500;
+}
+.teamintro p{
+    font-style: italic;
+    margin-top: 10px;
+}
+.teammembername{
+    text-transform: uppercase;
+    
+}
+.teammembername h3{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: serif;
+    font-weight: 800;
+    
+}
+.teammembername h5{
+    font-size: 15px;
+    text-align: right;
+    position: relative;
+/*    border: 1px solid red;*/
+}
+.teammembername h5::before{
+    content: "";
+    height: 2px;
+    width: 30px;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top:75%;
+    left: 50%;
+}
+@media(max-width:1200px){
+ 
+    .teammembername h5::before{
+        left: 0;
+        left: 44%;
+    }
+    
+}
+@media(max-width:992px){
+    .teammembername h5{
+/*        border: 1px solid red;*/
+    } 
+    .teammembername h5::before{
+        left: 0;
+        left:24%;
+    }
+}
+
+@media(max-width:768px)
+{
+    .teammembername h5{
+        width: 200px;
+        margin-left: 250px;
+/*        border: 1px solid red;*/
+    }
+    .teammembername h5::before{
+    content: "";
+    height: 2px;
+    width: 15%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+        left: 19%;
+   
+        
+    }}
+
+
+
+
+
+
+
+
+
+
